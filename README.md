@@ -51,7 +51,7 @@ npm install
 npm run dev
 ```
 
-The site will be available at `http://localhost:5173`
+The site will be available at `http://localhost:8000`
 
 ## Available Scripts
 
