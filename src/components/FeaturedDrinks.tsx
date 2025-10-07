@@ -57,14 +57,14 @@ const FeaturedDrinks = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-border group">
-                <div className="h-80 bg-gradient-warm relative overflow-hidden flex items-center justify-center p-8">
+              <Card className="overflow-hidden hover:shadow-2xl transition-all duration-300 border-border group rounded-xl">
+                <div className="h-80 bg-gradient-warm relative overflow-hidden flex items-center justify-center p-6">
                   <motion.img
                     src={drink.image}
                     alt={drink.name}
                     whileHover={{ 
-                      scale: 1.08,
-                      y: -8,
+                      scale: 1.06,
+                      y: -10,
                       rotate: [-1, 1, -1],
                     }}
                     transition={{ 
@@ -76,7 +76,7 @@ const FeaturedDrinks = () => {
                         ease: "easeInOut"
                       }
                     }}
-                    className="w-full h-full object-contain drop-shadow-xl"
+                    className="w-4/5 h-4/5 object-contain drop-shadow-2xl"
                   />
                 </div>
                 <CardContent className="p-6">
@@ -95,13 +95,16 @@ const FeaturedDrinks = () => {
                     {drink.description}
                   </p>
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-bold text-primary">
-                      {drink.price}
-                    </span>
+                    <div className="inline-flex items-center gap-3">
+                      <span className="px-3 py-1 rounded-full bg-gradient-to-r from-primary/10 to-accent/10 text-primary font-bold">
+                        {drink.price}
+                      </span>
+                      <span className="text-sm text-muted-foreground">Includes tax</span>
+                    </div>
                     <motion.button
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="px-6 py-2 bg-primary text-primary-foreground rounded-full font-semibold hover:bg-primary/90 transition-colors"
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.97 }}
+                      className="px-6 py-2 bg-primary text-primary-foreground rounded-full font-semibold hover:bg-primary/90 transition-colors shadow-glow-green"
                     >
                       Order
                     </motion.button>

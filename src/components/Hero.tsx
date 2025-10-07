@@ -89,9 +89,9 @@ const Hero = () => {
               <span className="text-primary font-semibold text-sm tracking-wide">✨ NEW THIS SEASON</span>
             </motion.div>
 
-            <h1 className="text-6xl md:text-8xl font-bold text-foreground leading-[1.1] tracking-tight">
-              Sip Into
-              <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold text-foreground leading-[1.02] tracking-tight">
+              <span className="block leading-tight">Sip Into</span>
+              <span className="block bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent drop-shadow-[0_8px_30px_rgba(0,0,0,0.06)]">
                 Something Fresh
               </span>
             </h1>
@@ -102,13 +102,13 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button size="lg" className="text-lg px-10 py-6 shadow-lg hover:shadow-xl">
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+                <Button size="lg" className="text-lg px-10 py-5 font-semibold shadow-glow-green bg-gradient-to-r from-primary to-accent text-primary-foreground hover:from-primary/95 hover:to-accent/95">
                   Order Now
                 </Button>
               </motion.div>
-              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <Button size="lg" variant="outline" className="text-lg px-10 py-6 border-2">
+              <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+                <Button size="lg" variant="outline" className="text-lg px-8 py-5 border-2">
                   Learn More
                 </Button>
               </motion.div>
