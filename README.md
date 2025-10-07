@@ -27,20 +27,6 @@ A modern, responsive landing page inspired by Starbucks, built with React, TypeS
 - **Build Tool:** Vite
 
 ---
-
-## Prerequisites
-
-- Node.js (v18 or higher)
-- npm (v9 or higher)
-
-Install with nvm:
-```sh
-nvm install 18
-nvm use 18
-```
-
----
-
 ## Getting Started
 
 1. **Clone the repository:**
@@ -58,7 +44,7 @@ nvm use 18
    ```sh
    npm run dev
    ```
-   Visit [http://localhost:8000](http://localhost:8000) in your browser.
+   Visit [http://localhost:8000](http://localhost:8080) in your browser.
 
 ---
 
@@ -71,18 +57,6 @@ nvm use 18
 
 ---
 
-## Project Structure
-
-```
-src/
-├── assets/         # Images and static assets
-├── components/     # Reusable UI components
-│   └── ui/        # Shadcn UI components
-├── lib/           # Utility functions
-└── pages/         # Page components
-```
-
----
 ## License
 
 MIT
