@@ -8,12 +8,12 @@ A modern, responsive landing page inspired by Starbucks, built with React, TypeS
 
 ## Features
 
-- 🎨 Responsive design for all screen sizes
-- ✨ Smooth animations & transitions (Framer Motion)
-- 🧩 Interactive UI components (Radix UI + Shadcn)
-- 🎯 Modern design system (Tailwind CSS)
-- 🚀 Fast builds with Vite
-- 📱 Mobile-first development
+-Responsive design for all screen sizes
+-  Smooth animations & transitions (Framer Motion)
+-  Interactive UI components (Radix UI + Shadcn)
+-  Modern design system (Tailwind CSS)
+-  Fast builds with Vite
+-  Mobile-first development
 
 ---
 
